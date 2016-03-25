@@ -1,4 +1,4 @@
-## PART 1
+## PART 1 makeCacheMatrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getInverse = getInverse)
 }
 
-## PART 2
+## PART 2 cacheSolve
 
 cacheSolve <- function(x, ...) {
     inv <- x$getInverse()
